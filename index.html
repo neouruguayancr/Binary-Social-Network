@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="Author" description="Cristian, Binary Tech">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary-Social-Network</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="position-absolute top-50 start-50 translate-middle"
+        name="pagina">
+        <div
+          class="container text-center align-items-center border bg-warning bg-opacity-50 mb-2 rounded">
+          <a href="#"><img
+              class="w-40 p-1 m-1 align-items-center position-relative"
+              src="binary11.png" alt="Logo de Binary"></a>
+          <div class="d-grid gap-2 col-5 mx-auto">
+            <h5 class="glitcha">¿Ya tienes una cuenta?</h5>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              Iniciar sesión
+            </button>
+          </div>
+          <br><hr>
+          <div class="container text-center align-items-centers ">
+            <p class="h5 text glitch">Únete ahora!</p><br>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-primary" type="button">Crear
+                cuenta</button>
+            </div>
+            <br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1"
+      aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Inicio de sesión</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- formulario de incio de sesión para el usuario -->
+            <form>
+              <!-- Campos del formulario -->
+              <div class="mb-3">
+                <label for="exampleInputUsername" class="form-label">Nombre de
+                  usuario / Correo electrónico</label>
+                <input type="text" class="form-control"
+                  id="exampleInputUsername">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword"
+                  class="form-label">Contraseña</label>
+                <input type="password" class="form-control"
+                  id="exampleInputPassword">
+              </div>
+              <!-- Otros campos del formulario -->
+              <button type="submit" class="btn btn-primary">Iniciar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div
+        class="position-absolute top-100 start-50 translate-middle my-5">&nbsp;&nbsp;&nbsp;
+        <h7 class="text-secondary"><a class="text-secondary"
+            href="#">Información</a></h7>&nbsp;&nbsp;&nbsp;<h7
+          class="text-secondary"><a class="text-secondary" href="#">Condiciones
+            de servicio</a></h7>&nbsp;&nbsp;&nbsp;
+        <h7 class="text-secondary"><a class="text-secondary" href="#">Política
+            de Cookies</a></h7>&nbsp;&nbsp;&nbsp;<h7 class="text-secondary"><a
+            class="text-secondary"
+            href="#">Desarrolladores</a></h7>&nbsp;&nbsp;&nbsp;
+        <h7 class="text-secondary"><a class="text-secondary"
+            href="#">Guía</a></h7>&nbsp;&nbsp;&nbsp;<h7
+          class="text-secondary"><a class="text-secondary" href="#">Centro de
+            ayuda</a></h7>&nbsp;&nbsp;&nbsp;
+        <h7 class="text-secondary"><a class="text-secondary" href="#">Política
+            de Privacidad</a></h7>&nbsp;&nbsp;&nbsp;<h7
+          class="text-secondary"><a class="text-secondary" href="#">Sobre
+            nosotros</a></h7>&nbsp;&nbsp;&nbsp;
+        <h7 class="text-secondary">© 2024 B Tech.</h7>
+      </div>
+    </footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

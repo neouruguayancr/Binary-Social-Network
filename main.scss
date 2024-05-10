@@ -1,0 +1,25 @@
+$primary: rgb(247, 78, 0);
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+    background-image: url(imagenbackground.png);
+}
+
+.h5 {
+    transform: translateZ(0);
+}
+
+.glitch {
+    font-size: 55px;
+    background: transparent;
+    text-shadow: 4px 3px 0px #83440941;
+    transform: translateZ(0);
+
+}
+
+.glitcha {
+    background: transparent;
+    text-shadow: 4px 3px 0px #83440941;
+    transform: translateZ(0);
+}
