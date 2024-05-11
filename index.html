@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Binary-Social-Network</title>
     <link rel="stylesheet" href="main.css" />
+    <link rel="icon" type="image/png" href="#">
   </head>
   <body>
     <div class="container-fluid">
-      <div class="position-absolute top-50 start-50 translate-middle"
-        name="pagina">
+      <div class="container position-absolute top-0 start-0">
+        <i class="bi bi-globe2 bi-lg"></i>
+      </div>
+
+      <div class="position-absolute top-50 start-50 translate-middle">
         <div
           class="container text-center align-items-center border bg-warning bg-opacity-50 mb-2 rounded">
           <a href="#"><img
@@ -36,7 +40,7 @@
       </div>
     </div>
 
-    <!-- Modal -->
+    <!-- Modal con formulario de incio de sesión para el usuario -->
     <div class="modal fade" id="exampleModal" tabindex="-1"
       aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -47,9 +51,7 @@
               aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <!-- formulario de incio de sesión para el usuario -->
             <form>
-              <!-- Campos del formulario -->
               <div class="mb-3">
                 <label for="exampleInputUsername" class="form-label">Nombre de
                   usuario / Correo electrónico</label>
@@ -62,13 +64,14 @@
                 <input type="password" class="form-control"
                   id="exampleInputPassword">
               </div>
-              <!-- Otros campos del formulario -->
-              <button type="submit" class="btn btn-primary">Iniciar</button>
+              <button type="submit"
+                class="btn btn-primary d-block mx-auto">Iniciar</button>
             </form>
           </div>
         </div>
       </div>
     </div>
+
     <footer>
       <div
         class="position-absolute top-100 start-50 translate-middle my-5">&nbsp;&nbsp;&nbsp;
